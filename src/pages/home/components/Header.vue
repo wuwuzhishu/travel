@@ -1,13 +1,13 @@
 <template>
   <div class="header">
     <div class="header_left">
-      左
+      <div class="iconfont">&#xe6bc;</div>
     </div>
     <div class="header_input">
-      中
+      <span class="iconfont">&#xe662;</span>
     </div>
     <div class="header_right">
-      右
+      <span class="iconfont">&#xe6aa;</span>
     </div>
   </div>
 </template>
@@ -15,7 +15,7 @@
 <script>
 export default{
   name: 'HomeHeader'
-}  
+}
 </script>
 
 <style scoped>
@@ -41,5 +41,3 @@ export default{
   float: right;
 }
 </style>
-
-
