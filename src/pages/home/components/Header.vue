@@ -5,8 +5,10 @@
     </div>
     <div class="header_input">
       <span class="iconfont">&#xe662;</span>
+      热门景点游玩主题
     </div>
     <div class="header_right">
+      成都
       <span class="iconfont">&#xe6aa;</span>
     </div>
   </div>
@@ -22,8 +24,9 @@ export default{
 .header{
   height: .88rem;
   line-height: .88rem;
-  background: red;
+  background: #00bcd4;
   display: flex;
+  color: #fff;
 }
 .header_left{
   float: left;
@@ -36,8 +39,11 @@ export default{
   height: .64rem;
   line-height: .64rem;
   margin-top: .12rem;
+  color: #333;
 }
 .header_right{
   float: right;
+  width: 1.3rem;
+  text-align: center;
 }
 </style>
